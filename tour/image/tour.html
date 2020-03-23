@@ -8,7 +8,7 @@
 </head>
 <style>
     html {
-        background: greenyellow;
+        background: white;
     }
 
     body {
@@ -20,14 +20,61 @@
 
     h1 {
         text-align: center;
-        font-size 35xp;
+        font-size: 50xp;
         color: honeydew;
         margin-top: 50px;
     }
 
+
     .qui-header {
         background-color: darkturquoise;
         height: 60px;
+    }
+
+    .pic {
+        border-radius: 50%;
+    }
+
+    .title {
+        position: absolute;
+        font-size: 18px;
+        font-weight: bolder;
+        color: white;
+        top: 0px;
+        left: 30px;
+        white-space: nowrap;
+        line-height: 40px;
+        margin-left: 30px;
+
+    }
+
+    .bottom {
+        position: absolute;
+        top: 420px;
+        
+        left: 380px;
+    }
+
+    .face {
+        float: left;
+        border: white solid 1px ;
+        border-radius: 50%;
+        width: 39px;
+        height: 39px;
+    }
+
+    .plc {}
+    .day{
+        position: absolute;
+        top: 110px;
+        right:380px ;
+        border-radius: 50%;
+        color: blanchedalmond;
+        background-color:#2bab79;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height:35px;
     }
 </style>
 
@@ -35,11 +82,21 @@
     <header class="qui-header">
         <h1>国内旅游计划</h1>
     </header>
-    <section class=""></section>
-    <a href="">
-        <img src="./fengjing.jpg" alt="" width="640xp">
-    </a>
-    
+    <section class="plc">
+        <a href="#">
+            <img src="./fengjing.jpg" alt="" width="635xp">
+        </a>
+        <div class="bottom">
+            <p class="face"><img src="./touxiang.jpg" alt="" width="38" height="38" class="pic">
+            </p>
+            <h2 class="title">我的旅游行程</h2>
+        </div>
+
+        <p class="day">
+            14天
+        </p>
+    </section>
+
 </body>
 
 </html>
